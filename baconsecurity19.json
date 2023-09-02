@@ -1,0 +1,17 @@
+{
+  "id": "deploymentID",
+  "scannable_networks": [
+    "172.20.30.0/24"
+  ],
+  "type": "deployment"
+}
+{
+  "id": "deploymentID",
+  "sensors": {
+    "nmap": {
+      "audit_bypass": [
+        "10.20.30.40"
+      ]
+    }
+  },
+  "type": "deployment"
